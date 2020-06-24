@@ -8,12 +8,13 @@ import{Cards, Chart, CountryPicker} from'./components'; //Jednostavnije nacin im
 import styles from './App.module.css';
 import { fetchData } from './api';
 import coronaImage from './images/coronaworld4.png';
+//Inicijalni state-ovi
 class App extends React.Component {
     state= {
         data: {},
         country: '',    
     }
-//componentDidMount ova se metoda koristi za dohvacanje podataka iz exstenog api-a async koristimo zbog await-a
+//componentDidMount ova se metoda koristi za dohvacanje podataka iz exstenog api-a, async koristimo zbog await-a
     async componentDidMount(){
         const data = await fetchData();
 
