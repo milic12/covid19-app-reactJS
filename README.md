@@ -22,11 +22,8 @@ Once you have completed the above you can run the application with:
 npm run dev
 ```
 
-This will open in your browser at [localhost:3000](http://localhost:3000).
+This will open in your browser at [localhost:8000](http://localhost:3000).
 
 
-## Available Scripts
-<img src="/images/slika1.png" alt="covid1"/>
-<img src="/images/slika2.png" alt="Tcovid2"/>
-<img src="/images/slika3.png" alt="covid3"/>
+
 
